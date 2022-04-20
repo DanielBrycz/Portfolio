@@ -1,0 +1,126 @@
+ body {background-image: url(images/Genshin.jpg); 
+      min-height: 600px;
+      display:  flex;
+      align-items: center;
+      justify-content: center;
+      background-repeat: no-repeat;
+       background-size: 120%;
+       background position: center;
+      }
+
+      .container{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: sans-serif;
+      }
+      .card
+      {  
+        min-height: 240px;
+        align-items: center; width: 450px;
+        border-radius:  40px;
+        padding: 0px 80px;
+        box-shadow:  0px 20px 50px rgba(0, 0, 0, 0.5)
+
+      
+      }
+
+
+      .img img{
+        width: 320px;
+        border-radius: 60%;
+          min-height: 240px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+      }
+      .circle{
+        width: 350px;
+       height: 350px;
+        background: #D88C1D;
+        border-radius: 50%;
+        z-index: 1; 
+
+         }
+         .name h1{
+          font-size: 40px;
+          margin: 10px 20px;
+          padding-left: 25px ;
+          color: #C4B399;
+         }
+         .name h3{
+          font-size: 33px;
+          padding-left: 30px;
+          color: #C4B399;
+          font-weight: lighter
+          ;text-align: center;
+          margin-right: 30px
+         }
+
+         .getInfo{
+          display: flex;
+          justify-content: space-between;
+
+         }
+         .getInfo button{
+          margin-top: 20px;
+          padding:  20px 10px;
+          background: none;
+          border: none;
+          color: white;
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+          border-radius: 30px ;
+          cursor: pointer;
+          font-weight: bold;
+          transition:  all 0.5s;
+
+
+         }
+         
+         button.active {
+          background: #C4B399;
+          color: black 
+         }
+         .search{
+          margin:  20px 30px;
+
+
+         }
+         .search button{
+          width: 100%;
+          border: none;
+          padding: 20px 10px;
+          background: #FFB200;
+          border-radius: 30px;
+          cursor: pointer;
+          transition:  all 0.5s;
+
+         }
+          .button span { 
+          display: inline-block;
+          position: relative;
+          transition: 0.5s;
+
+         }
+          .button span:after {
+          content: '\00bb';
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          right: -20px;
+          transform: 0.5s;
+         }
+         .button:hover span {
+          padding-right:  25px;
+         }
+          .button:hover span:after {
+          opacity: 1;
+          right: 0;
+          text-decoration-color: 
+
+         }
+        .button:hover {
+          background: #E2E1DD;
+          }
